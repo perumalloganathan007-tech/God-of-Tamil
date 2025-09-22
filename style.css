@@ -1,0 +1,88 @@
+*{
+    margin:0px;
+    padding:0px;
+    
+}
+.one{
+
+  
+    height: 50px;
+    width: 100%;
+   margin-top: 10px;
+
+}
+nav {
+ 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background:black;
+    color: white;
+
+      font-size: 20px;
+    font-weight: bold;
+    display: flex;
+} 
+ nav ul li{
+     padding-left: 750px;
+    padding-right: 5px;  
+    list-style-type: none;
+    text-align: left;
+    display: flex;
+    padding-top: 20px;
+    font-size:  20px;
+  }
+
+
+li:hover{
+    color: red;
+    cursor: pointer;
+}.two{
+    text-align: center;
+    background-color: black;
+}
+p{
+    font-style: Papyrus;
+}
+img{
+    height: 50%;
+    width: 100%;
+  
+    margin-top: 20px;
+}
+.text{
+ color: white;
+}
+.button{
+    padding-left: 20px ;
+   
+}
+button{
+     border: 3px solid red;
+    background-color: red;
+    color: white;
+    padding: 5px;;
+}
+button:hover{
+    background-color: black;
+    color: red;
+    cursor: pointer;
+}
+body{
+    background:url("god.jpg");
+  background-repeat: no-repeat;
+    background-size: cover;
+
+}
+  a {
+    color: inherit; 
+    text-decoration: none;
+  }
+
+.footer{
+    width:100%;
+    height: 10%;
+    background:black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
